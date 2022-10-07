@@ -1,10 +1,33 @@
 @media only screen and (min-width: 810px) {
-
+    body {
+        font-size: 25px;
+    }
+    .swiper {
+        padding-top: 200px;    
+    }
+    .swiper-slide {
+        width: 500px;
+        height: 450px;
+        -webkit-box-reflect:below 60px linear-gradient(transparent, transparent, #0006);
+    }        
+    .swiper-slide img {
+        transform: scale(100%) translate(0%, 0%);
+    }
+    .swiper-pagination {
+        top: 100px;
+    }
+    .swiper-pagination-bullet {
+        height: 15px;
+        width: 15px;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
     .swiper-slide {
         width: 500px;
         height: 432px;
-      }
+    }
+    .swiper-slide img {
+    transform: scale(100%) translate(0%, 0%);
+    }
 }

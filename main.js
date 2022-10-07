@@ -1,3 +1,11 @@
+let distance;
+
+if (window.innerWidth < 810) {
+  distance = -75
+} else if (window.innerWidth > 810) {
+  distance = -200
+};
+
 var swiper = new Swiper('.swiper', {
   effect: 'coverflow',
   grabCursor: true,
@@ -9,7 +17,7 @@ var swiper = new Swiper('.swiper', {
   followFinger: true,
   coverflowEffect: {
     rotate: 25,
-    stretch: -100,
+    stretch: distance,
     depth: 500,
     modifier: 1,
     slideShadows: true,
