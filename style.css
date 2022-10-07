@@ -41,8 +41,12 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 500px;
-  height: 432px;
+  width: 250px;
+  height: 216px;
   background: #111;
   -webkit-box-reflect:below 50px linear-gradient(transparent, transparent, #0006);
+}
+
+.swiper-slide img {
+  transform: scale(50%) translate(-50%, -50%);
 }
