@@ -2,15 +2,17 @@ let distance;
 
 if (window.innerWidth < 810) {
   distance = -75
-} else if (window.innerWidth > 810) {
+} else if (window.innerWidth > 810 && window.innerWidth < 1150) {
   distance = -200
+} else if (window.innerWidth > 1150) {
+  distance = -300
 };
 
 var swiper = new Swiper('.swiper', {
   effect: 'coverflow',
   grabCursor: true,
   //paginationClickable: true,
-  speed: 2500,
+  speed: 2200,
   centeredSlides: true,
   slidesPerView: 'auto',
   loop: true,
@@ -23,8 +25,8 @@ var swiper = new Swiper('.swiper', {
     slideShadows: true,
   },
   autoplay: {
-    delay: 3000,
-    transition: 2000,
+    delay: 2500,
+    transition: 1800,
     disableOnInteraction: false,
   },
   pagination: {
