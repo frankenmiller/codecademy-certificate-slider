@@ -1,10 +1,12 @@
 var swiper = new Swiper('.swiper', {
   effect: 'coverflow',
   grabCursor: true,
-  paginationClickable: true,
+  //paginationClickable: true,
   speed: 2500,
   centeredSlides: true,
   slidesPerView: 'auto',
+  loop: true,
+  followFinger: true,
   coverflowEffect: {
     rotate: 25,
     stretch: -200,
@@ -12,7 +14,6 @@ var swiper = new Swiper('.swiper', {
     modifier: 1,
     slideShadows: true,
   },
-  loop: true,
   autoplay: {
     delay: 3000,
     transition: 2000,
@@ -20,6 +21,6 @@ var swiper = new Swiper('.swiper', {
   },
   pagination: {
     el: '.swiper-pagination',
-    clickable: true
+    clickable: true,
   }
 });
