@@ -15,6 +15,19 @@ body {
   min-height: 50vh;;
 }
 
+.header {
+
+}
+
+#linkedin {
+  position: fixed;
+  padding-top: 10px;
+  height: 30px;
+  width: 100%;
+  background: lightgray;
+  top: 0px;
+}
+
 .swiper {
   width: 100%;
   padding-top: 125px;
@@ -22,7 +35,7 @@ body {
 }
 
 .swiper-pagination {
-  top: 40px;
+  top: 55px;
 }
 
 .swiper-pagination-bullet {
