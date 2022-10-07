@@ -5,13 +5,14 @@
 
 body {
   background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100vh;;
 }
 
 .swiper {
@@ -24,6 +25,6 @@ body {
   background-position: center;
   background-size: cover;
   width: 500px;
-  height: 386px;
+  height: 420px;
   background: #000;
 }
