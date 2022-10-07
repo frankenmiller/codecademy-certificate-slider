@@ -21,6 +21,18 @@ body {
   padding-bottom: 250px;
 }
 
+.swiper-pagination {
+  top: 50px;
+}
+
+.swiper-pagination-bullet {
+  background-color: darkgray;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: blue;
+}
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
