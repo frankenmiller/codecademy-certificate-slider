@@ -76,10 +76,9 @@
     text-decoration: none;
 }
 
-#social-icons {
+#social-icons { 
     position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-left: 50%;    
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -90,7 +89,6 @@
     background-color: green;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 50%;
     font-size: 20px;
     color: #191970;
     font-weight: 600;

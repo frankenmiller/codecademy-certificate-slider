@@ -1,6 +1,17 @@
+/* iPhone upright */
+@media only screen and (max-width: 798px) {
+    #social-icons {  
+        transform: translateX(calc(-50% - 55px));
+    }
+}
+
+/* iPad upright */
 @media only screen and (min-width: 810px) {
     body {
         font-size: 25px;
+    }
+    #social-icons {  
+        transform: translateX(calc(-50% + 10px));
     }
     .swiper {
         padding-top: 200px;    
@@ -40,4 +51,7 @@
     .swiper-pagination {
         top: 50px;
     }
+    #social-icons {  
+        transform: translateX(calc(-50% + 550px));
+    }    
 }
